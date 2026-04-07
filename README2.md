@@ -8,16 +8,16 @@ I used functions like showAndHide() to show and hide Navy given a delay in time 
 The plan was to use the resources that I've collected over my time in the web development course along with the hints provided in this project to create a functional game. For each function, I was able to reference something I had previously done to get it completed. Then I was able to get pictures of my son and get the image link to replace the image of the mole.
 
 ## Trade Offs
-The main trade offs I made were in the css file where I changed the moles into my son and the background into a trampoline park. I also made a font change to make the words appear in Times New Roman.
+The main trade offs I made were in the css file where I changed the moles into my son and the background into a trampoline park. I also made a font change to make the words appear in Times New Roman and changed the font color to navy blue. Also aligned the start button to the center of the page for better accessibility
 
 ## Troubleshooting Moments
-I wasn't able to get the mallet to show up at first. But after looking closely at the code, I realized it wasn't pulling from the right path to get the photo of the mallet. I used "../" to get the path on track so I could use the image of the mallet.
+I wasn't able to get the mallet to show up at first. But after looking closely at the code, I realized it wasn't pulling from the right path to get the photo of the mallet. I used "../" to get the path on track so I could use the image of the mallet. I also had an issue where the bottom row of my holes wouldn't show unless the user set the page to full screen. To fix this, I modified the html code to put all of the h1 and h2 into a single div and reduced the margin so that everything would fit in the main browser screen.
 
 ## AI Tools
 I didn't have much use for AI in this project because of the resources I already had from my previous lessons and the hints that were given in the readme for the project.
 
 ## Project Process
-This was a challenging process because it caused me to dig deep into my vault of resources to complete it. For each function that the project required of me, I went back to my notes from those lessons and I was able to type out my functions the way they needed to be typed. I used photos from my own device and a picture of a trampoline park from a google search to give myself the backgroud I wanted to use. I went down the list of user stories one at a time and completed the functions before going over to the css file and making my style changes. The easiest part had to be the index.html file where I had to created the divs for the moles.
+This was a challenging process because it caused me to dig deep into my vault of resources to complete it. For each function that the project required of me, I went back to my notes from those lessons and I was able to type out my functions the way they needed to be typed. I used photos from my own device and a picture of a trampoline park from a google search to give myself the backgroud I wanted to use. I went down the list of user stories one at a time and completed the functions before going over to the css file and making my style changes. The easiest part had to be the index.html file where I had to created the divs for the moles. 
 
 ## Commit History and Screenshots
 xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
@@ -166,6 +166,32 @@ $ git commit -m "updated background and mallet"
 [main 3c94352] updated background and mallet
  2 files changed, 16 insertions(+), 7 deletions(-)
 
+ xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
+$ git add index.html
+
+xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
+$ git commit -m "rearranged script back into head"
+[main feadbcd] rearranged script back into head
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+
+xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
+$ git add index.html
+
+xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
+$ git commit -m "took script out of head again, tests are passing"
+[main a530720] took script out of head again, tests are passing
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
+$ git add src/styles.css
+
+xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
+$ git commit -m "corrected css to allow the mole to show"
+[main ea043bb] corrected css to allow the mole to show
+ 1 file changed, 1 insertion(+)
+
+
+
 <img width="1746" height="942" alt="Screenshot 2026-04-01 232914" src="https://github.com/user-attachments/assets/2341834a-ad43-4cc9-b4fa-0547605cbf48" />
 <img width="1402" height="877" alt="Screenshot 2026-04-01 233614" src="https://github.com/user-attachments/assets/5d2c2a78-8956-4a73-a081-9f7adf108923" />
 <img width="1473" height="946" alt="Screenshot 2026-04-01 234759" src="https://github.com/user-attachments/assets/3f699503-1cbc-473b-bbad-e79c7d697e75" />
@@ -178,6 +204,10 @@ $ git commit -m "updated background and mallet"
 <img width="1377" height="945" alt="Screenshot 2026-04-03 002443" src="https://github.com/user-attachments/assets/2dd08d6f-1f61-436f-b701-070a74e0db26" />
 <img width="1455" height="856" alt="Screenshot 2026-04-03 002508" src="https://github.com/user-attachments/assets/b77110d8-cbd9-4f29-8ece-1bf64e5f5bfa" />
 <img width="1455" height="856" alt="Screenshot 2026-04-03 002508" src="https://github.com/user-attachments/assets/58b2d68a-63e2-4180-aa0a-77c24d52a71e" />
+<img width="1535" height="902" alt="Screenshot 2026-04-06 202604" src="https://github.com/user-attachments/assets/f59cb5a6-7f1f-47d6-a8fd-5fffb284687c" />
+<img width="1470" height="846" alt="Screenshot 2026-04-06 202635" src="https://github.com/user-attachments/assets/71f48bcf-f4fc-4b35-b7e2-990d0e064ed2" />
+
+
 
 
 
