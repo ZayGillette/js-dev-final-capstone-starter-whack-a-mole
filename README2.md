@@ -17,7 +17,7 @@ I wasn't able to get the mallet to show up at first. But after looking closely a
 I didn't have much use for AI in this project because of the resources I already had from my previous lessons and the hints that were given in the readme for the project.
 
 ## Project Process
-This was a challenging process because it caused me to dig deep into my vault of resources to complete it. For each function that the project required of me, I went back to my notes from those lessons and I was able to type out my functions the way they needed to be typed. I used photos from my own device and a picture of a trampoline park from a google search to give myself the backgroud I wanted to use. I went down the list of user stories one at a time and completed the functions before going over to the css file and making my style changes. The easiest part had to be the index.html file where I had to created the divs for the moles. 
+This was a challenging process because it caused me to dig deep into my vault of resources to complete it. For each function that the project required of me, I went back to my notes from those lessons and I was able to type out my functions the way they needed to be typed. I used photos from my own device and a picture of a trampoline park from a google search to give myself the backgroud I wanted to use. I went down the list of user stories one at a time and completed the functions before going over to the css file and making my style changes. The easiest part had to be the index.html file where I had to created the divs for the moles. The game will work best with a full screen setting.
 
 ## Commit History and Screenshots
 xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
@@ -189,6 +189,15 @@ xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
 $ git commit -m "corrected css to allow the mole to show"
 [main ea043bb] corrected css to allow the mole to show
  1 file changed, 1 insertion(+)
+
+ xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
+$ git add src/styles.css
+
+xavie@ZayGillette MINGW64 ~/js-dev-final-capstone-starter-whack-a-mole (main)
+$ git commit -m "changed font color and added background to text"
+[main 9f7cb6f] changed font color and added background to text
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+
 
 
 
